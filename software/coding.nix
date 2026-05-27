@@ -25,7 +25,8 @@
 		nodejs
 
 		# dotnet
-		dotnet-sdk_11
+		# dotnet-sdk_11
+		dotnet-sdk_10
 		mono
 
 		# Godot
