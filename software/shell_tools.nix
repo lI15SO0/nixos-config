@@ -12,6 +12,7 @@
 		btop
 		dust
 		file
+		feh
 	];
 
 	programs.zsh = {
