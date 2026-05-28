@@ -20,6 +20,9 @@
 		# go
 		go
 
+		# python
+		python3
+
 		# es script
 		quickjs-ng
 		nodejs
