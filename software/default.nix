@@ -15,5 +15,6 @@
 		./system_tools.nix
 		./vm.nix
 		./web.nix
+		./wine.nix
 	];
 }
