@@ -11,6 +11,7 @@
 		./game.nix
 		./im.nix
 		./lsp.nix
+		./obs-studio.nix
 		./shell_tools.nix
 		./system_tools.nix
 		./vm.nix

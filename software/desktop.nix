@@ -20,5 +20,7 @@
 		ghostty
 		libnotify
 		wl-clipboard
+
+		vlc
 	];
 }
