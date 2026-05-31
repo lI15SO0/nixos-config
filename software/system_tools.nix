@@ -4,5 +4,9 @@
 		efibootmgr
 		fastfetch
 		pciutils
+
+		exfatprogs
+		zfs
+		btrfs-progs
 	];
 }
