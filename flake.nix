@@ -3,9 +3,9 @@
 
 	inputs = {
 		# nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-		# nixpkgs.url = "git+https://mirrors.cernet.edu.cn/nixpkgs.git?ref=nixos-unstable&shallow=1";
+		nixpkgs.url = "git+https://mirrors.cernet.edu.cn/nixpkgs.git?ref=nixos-unstable&shallow=1";
 		# nixpkgs.url = "git+https://mirrors.nju.edu.cn/git/nixpkgs.git?ref=nixos-unstable&shallow=1";
-		nixpkgs.url = "git+http://lunarserver.local:3000/MIRROR/nixpkgs/?ref=nixos-unstable&shallow=1";
+		# nixpkgs.url = "git+http://lunarserver.local:3000/MIRROR/nixpkgs/?ref=nixos-unstable&shallow=1";
 
 		home-manager = {
 			# url = "github:nix-community/home-manager";
