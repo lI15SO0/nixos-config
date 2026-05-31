@@ -1,17 +1,15 @@
 {
 	imports = [
 		./android_tools.nix
+		./art_work.nix
 		./coding.nix
 		./compression.nix
-		./daw.nix
 		./desktop.nix
-		./draw.nix
 		./editor.nix
 		./fonts.nix
 		./game.nix
 		./im.nix
 		./lsp.nix
-		./obs-studio.nix
 		./shell_tools.nix
 		./system_tools.nix
 		./vm.nix

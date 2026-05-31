@@ -1,5 +1,6 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 {
+	# OBS-Studio
 	programs.obs-studio = {
 		enable = true;
 
@@ -19,4 +20,24 @@
 			obs-vkcapture
 		];
 	};
+
+	environment.systemPackages = with pkgs; [
+		# draw
+		krita
+		aseprite
+		inkscape
+
+		# fonts
+		fontforge
+
+		# 3D
+		blender
+
+		# Music
+		ardour
+		lmms
+
+		# Video editor
+		kdePackages.kdenlive
+	];
 }
