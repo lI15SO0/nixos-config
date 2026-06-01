@@ -8,5 +8,7 @@
 		exfatprogs
 		zfs
 		btrfs-progs
+
+		psmisc
 	];
 }
