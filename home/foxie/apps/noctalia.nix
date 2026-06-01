@@ -598,36 +598,22 @@
                 "enabled": true,
                 "keybind": "1"
             },
-            {
-                "action": "suspend",
-                "command": "",
-                "countdownEnabled": true,
-                "enabled": false,
-                "keybind": ""
-            },
-            {
-                "action": "hibernate",
-                "command": "",
-                "countdownEnabled": true,
-                "enabled": false,
-                "keybind": ""
-            },
-            {
+			{
                 "action": "reboot",
                 "command": "",
                 "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "2"
             },
-            {
-                "action": "logout",
+			{
+                "action": "shutdown",
                 "command": "",
                 "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "3"
             },
             {
-                "action": "shutdown",
+                "action": "userspaceReboot",
                 "command": "",
                 "countdownEnabled": true,
                 "enabled": true,
@@ -641,11 +627,25 @@
                 "keybind": "5"
             },
             {
-                "action": "userspaceReboot",
+                "action": "logout",
                 "command": "",
                 "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "6"
+            },
+			{
+                "action": "suspend",
+                "command": "",
+                "countdownEnabled": true,
+                "enabled": false,
+                "keybind": ""
+            },
+            {
+                "action": "hibernate",
+                "command": "",
+                "countdownEnabled": true,
+                "enabled": false,
+                "keybind": ""
             }
         ],
         "showHeader": true,
