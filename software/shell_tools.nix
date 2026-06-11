@@ -22,7 +22,7 @@
 		syntaxHighlighting.enable = true;
 		ohMyZsh = {
 			enable = true;
-			plugins = [ "git" "z" ];
+			plugins = [ "git" ];
 		};
 		shellAliases = {
 			e = "nvim";
