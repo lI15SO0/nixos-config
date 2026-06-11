@@ -10,7 +10,6 @@
 		./noctalia.nix
 		./starship.nix
 		./swaylock.nix
-		./zoxide.nix
 		./zsh.nix
 	];
 }
