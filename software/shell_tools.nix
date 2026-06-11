@@ -15,17 +15,23 @@
 		feh
 	];
 
-	programs.zsh = {
-		enable = true;
-		enableCompletion = true;
-		autosuggestions.enable = true;
-		syntaxHighlighting.enable = true;
-		ohMyZsh = {
+	programs = {
+		zsh = {
 			enable = true;
-			plugins = [ "git" ];
+			enableCompletion = true;
+			autosuggestions.enable = true;
+			syntaxHighlighting.enable = true;
+			ohMyZsh = {
+				enable = true;
+				plugins = [ "git" ];
+			};
+			shellAliases = {
+				e = "nvim";
+			};
 		};
-		shellAliases = {
-			e = "nvim";
+		zoxide = {
+			enable = true;
+			enableZshIntegration = true;
 		};
 	};
 }
