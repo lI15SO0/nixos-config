@@ -46,6 +46,13 @@
 		rustfmt
 		sccache
 
+		# ocaml
+		opam
+
+		# racket
+		racket
+
+
 		# Vcs
 		git
 
