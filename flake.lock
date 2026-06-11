@@ -7,10 +7,10 @@
         ]
       },
       "locked": {
-        "lastModified": 1780099287,
-        "narHash": "sha256-efIPwVGtIWIjWcznhaop6XN6HxnOL8800hF6CBNvlqQ=",
+        "lastModified": 1780677218,
+        "narHash": "sha256-jClxXT6YeeIJIggMA+mQClS5WFe4Xz1MTbM3bXcdO3M=",
         "ref": "refs/heads/master",
-        "rev": "7d8127d308c3fb9664f7e643eec944be74ebb37d",
+        "rev": "0450574818af22e3090f52d10e9bd76440ac428f",
         "shallow": true,
         "type": "git",
         "url": "http://lunarserver.local:3000/MIRROR/home-manager"
@@ -23,10 +23,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1779560665,
-        "narHash": "sha256-tpyBcxPpcQb8ukyNF7DoCwfSY3VPsxHoYwj00Cayv5o=",
+        "lastModified": 1780243769,
+        "narHash": "sha256-x5UQuRsH3MqI0U9afaXSNqzTPSeZlRLvFAav2Ux1pNw=",
         "ref": "nixos-unstable",
-        "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+        "rev": "331800de5053fcebacf6813adb5db9c9dca22a0c",
         "shallow": true,
         "type": "git",
         "url": "https://mirrors.cernet.edu.cn/nixpkgs.git"
@@ -46,10 +46,10 @@
         "noctalia-qs": "noctalia-qs"
       },
       "locked": {
-        "lastModified": 1780197945,
-        "narHash": "sha256-zeluNQgRgTglqKnv5EaM7DzSaqmrCdqTocmaWC7dxy0=",
+        "lastModified": 1780673010,
+        "narHash": "sha256-h7Q8F019PwjIqm5lH0kJRQ/58UiELG+XwZ2B62K3PKA=",
         "ref": "main",
-        "rev": "b16dc50250af05d5048ac454dbf4e898d1adcac0",
+        "rev": "2461f871a602f9a5688b5b01dc19c6309dd0d519",
         "shallow": true,
         "type": "git",
         "url": "http://lunarserver.local:3000/MIRROR/noctalia-shell"

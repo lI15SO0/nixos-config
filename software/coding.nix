@@ -54,8 +54,40 @@
 
 		# shader
 		shader-slang
+
+		# vulkan
+		vulkan-volk
+		vulkan-tools
+		vulkan-headers
+		vulkan-loader
+
+		vulkan-validation-layers
+		vulkan-tools-lunarg
+		vulkan-extension-layer
+
+		vulkan-utility-libraries
+
+		spirv-tools
+		glslang
+		shaderc
+
+		mesa
+
+		# Libraries
+		sdl3
+		assimp
+		stb
+		glm
 	];
 
+	environment.sessionVariables = rec {
+		VULKAN_SDK = "${pkgs.vulkan-headers}";
+		VULKAN_LAYER_PATH = "${pkgs.vulkan-validation-layers}/share/vulkan/explicit_layer.d";
+		CMAKE_PREFIX_PATH = "/run/current-system/sw";
+		CMAKE_LIBRARY_PATH = "/run/current-system/sw/lib";
+		CMAKE_INCLUDE_PATH = "/run/current-system/sw/include";
+		PKG_CONFIG_PATH = "/run/current-system/sw/lib/pkgconfig";
+	};
 
 	# ccache
 	nixpkgs.overlays = [
