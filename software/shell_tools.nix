@@ -38,7 +38,9 @@
 			enable = true;
 			flags = [ "--disable-up-arrow" ];
 			enableZshIntegration = true;
-			settings = {};
+			settings = {
+				auto_sync = false;
+			};
 		};
 	};
 }
