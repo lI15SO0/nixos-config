@@ -33,5 +33,12 @@
 			enable = true;
 			enableZshIntegration = true;
 		};
+
+		atuin = {
+			enable = true;
+			flags = [ "--disable-up-arrow" ];
+			enableZshIntegration = true;
+			settings = {};
+		};
 	};
 }

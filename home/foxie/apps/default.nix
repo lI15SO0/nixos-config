@@ -1,6 +1,5 @@
 {
 	imports = [
-		./atuin.nix
 		./cargo.nix
 		./fzf.nix
 		./ghostty.nix
