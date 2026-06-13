@@ -46,6 +46,9 @@
 		rustfmt
 		sccache
 
+		# typst
+		typst
+
 		# ocaml
 		opam
 
