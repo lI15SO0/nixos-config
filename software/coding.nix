@@ -9,6 +9,7 @@
 		gnumake
 		meson
 		muon
+		just
 
 		# C 
 		gcc
