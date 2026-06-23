@@ -9,6 +9,7 @@
     programs.noctalia-shell = {
       enable = true;
       settings =  builtins.fromJSON ''
+
 {
     "appLauncher": {
         "autoPasteClipboard": false,

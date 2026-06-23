@@ -15,7 +15,7 @@
 
 		noctalia = {
 			# url = "github:noctalia-dev/noctalia-shell";
-			url = "git+http://lunarserver.local:3000/MIRROR/noctalia-shell?ref=main&shallow=1";
+			url = "git+http://lunarserver.local:3000/MIRROR/noctalia-shell?ref=legacy-v4&shallow=1";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
 	};
