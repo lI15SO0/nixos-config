@@ -11,6 +11,7 @@
 		};
 		initContent = ''
 eval "$(starship init zsh)"
+eval $(opam env)
 		'';
 
 		shellAliases = {
