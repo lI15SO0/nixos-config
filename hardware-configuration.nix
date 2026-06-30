@@ -18,27 +18,26 @@
 	# filesystem
 	boot.zfs.forceImportRoot = true;
 	boot.zfs.extraPools = [
-		"LunarData"
 		"LunarRepo"
 	];
 
 	fileSystems."/" = {
-		device = "lunar_root/nixos";
+		device = "LunarRoot/NixosRoot";
 		fsType = "zfs";
 	};
 
 	fileSystems."/.profiles" = {
-		device = "lunar_root/profiles";
+		device = "LunarRoot/profiles";
 		fsType = "zfs";
 	};
 
 	fileSystems."/nix" = {
-		device = "lunar_root/nix";
+		device = "LunarRoot/Nix";
 		fsType = "zfs";
 	};
 
 	fileSystems."/boot" = {
-		device = "/dev/disk/by-uuid/B5EB-EFD8";
+		device = "/dev/disk/by-uuid/7843-A749";
 		fsType = "vfat";
 		options = [ "fmask=0022" "dmask=0022" ];
 	};
