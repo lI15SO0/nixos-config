@@ -63,7 +63,8 @@
 		# Vcs
 		git
 
-		# jdk
+		# java
+		gradle
 		openjdk
 
 		# shader
