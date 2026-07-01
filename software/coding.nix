@@ -22,6 +22,9 @@
 		go
 
 		# python
+		ty
+		ruff
+		uv
 		python3
 
 		# es script
