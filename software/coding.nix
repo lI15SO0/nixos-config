@@ -27,6 +27,7 @@
 		# es script
 		quickjs-ng
 		nodejs
+		deno
 
 		# dotnet
 		# dotnet-sdk_11
@@ -55,7 +56,6 @@
 
 		# racket
 		racket
-
 
 		# Vcs
 		git

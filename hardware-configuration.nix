@@ -22,7 +22,7 @@
 	];
 
 	fileSystems."/" = {
-		device = "LunarRoot/NixosRoot";
+		device = "LunarRoot/NixRoot";
 		fsType = "zfs";
 	};
 
@@ -37,7 +37,7 @@
 	};
 
 	fileSystems."/boot" = {
-		device = "/dev/disk/by-uuid/7843-A749";
+		device = "/dev/disk/by-uuid/8DE8-17E4";
 		fsType = "vfat";
 		options = [ "fmask=0022" "dmask=0022" ];
 	};
