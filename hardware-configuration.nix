@@ -52,23 +52,4 @@
 		enable = true;
 		interval = "weekly";
 	};
-
-	#  services.smartd = {
-	# enable = true;
-	# devices = [
-	# 	{
-	# 		device = "/dev/disk/by-uuid/17377484653442125737";
-	# 		options = "-a -o on -S on -s (S/../.././02|L/../../7/03)";
-	# 	}
-	# 	{
-	# 		device = "/dev/disk/by-uuid/15075018794702833505";
-	# 		options = "-a -o on -S on -s (S/../.././02|L/../../7/03)";
-	# 	}
-	# 	{
-	# 		device = "/dev/disk/by-uuid/14924946931738502554";
-	# 		options = "-a -o on -S on -s (S/../.././02|L/../../7/03)";
-	# 	}
-	# ];
-	#  };
-
 }
