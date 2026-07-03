@@ -38,7 +38,7 @@
 		mono
 
 		# Godot
-		godot
+		godot-mono
 
 		# Lua
 		luajit
