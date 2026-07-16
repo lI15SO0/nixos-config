@@ -27,10 +27,10 @@
 			in builtins.replaceStrings ["Exec="] ["Exec=nvidia-offload "] steamDesktopContent;
 		};
 
-		"${config.xdg.dataHome}/applications/firefox-devedition.desktop" = {
+		"${config.xdg.dataHome}/applications/firefox.desktop" = {
 			enable = true;
 			text = let
-				firefoxDesktop = "${pkgs.firefox-devedition}/share/applications/firefox-devedition.desktop";
+				firefoxDesktop = "${pkgs.firefox-bin}/share/applications/firefox.desktop";
 				firefoxDesktopContent = builtins.readFile firefoxDesktop;
 			in builtins.replaceStrings ["Exec="] ["Exec=nvidia-offload "] firefoxDesktopContent;
 		};
