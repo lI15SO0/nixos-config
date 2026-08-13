@@ -93,6 +93,9 @@
 		assimp
 		stb
 		glm
+
+		# THX bro, This docs is awesome!!!
+		zeal
 	];
 
 	environment.sessionVariables = rec {
