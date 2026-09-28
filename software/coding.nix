@@ -18,6 +18,10 @@
 		gdb
 		clang-tools
 
+		# zig
+		zig
+		zls
+
 		# go
 		go
 
