@@ -5,6 +5,7 @@
 		./coding.nix
 		./compression.nix
 		./desktop.nix
+		./diagrams.nix
 		./editor.nix
 		./fonts.nix
 		./game.nix
