@@ -11,5 +11,4 @@
     programs.noctalia = {
       enable = true;
 	};
-
 }

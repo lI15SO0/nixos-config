@@ -325,6 +325,3 @@ binds {
 	Alt+Shift+F { spawn "noctalia" "msg" "bar-toggle"; }
     Mod+Shift+P { power-off-monitors; }
 }
-
-include "./noctalia.kdl"
-
