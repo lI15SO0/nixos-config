@@ -4,7 +4,8 @@
 	inputs = {
 		# nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 		# nixpkgs.url = "git+https://mirrors.cernet.edu.cn/nixpkgs.git?ref=nixos-unstable&shallow=1";
-		nixpkgs.url = "git+https://mirrors.nju.edu.cn/git/nixpkgs.git?ref=nixos-unstable&shallow=1";
+		# nixpkgs.url = "git+https://mirrors.nju.edu.cn/git/nixpkgs.git?ref=nixos-unstable&shallow=1";
+		nixpkgs.url = "git+https://mirrors.tuna.tsinghua.edu.cn/git/nixpkgs.git?ref=nixos-unstable&shallow=1";
 		# nixpkgs.url = "git+http://lunarserver.local:3000/MIRROR/nixpkgs/?ref=nixos-unstable&shallow=1";
 
 		home-manager = {
@@ -15,7 +16,7 @@
 
 		noctalia = {
 			# url = "github:noctalia-dev/noctalia-shell";
-			url = "git+http://lunarserver.local:3000/MIRROR/noctalia-shell?ref=legacy-v4&shallow=1";
+			url = "git+http://lunarserver.local:3000/MIRROR/noctalia-shell?shallow=1";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
 	};
