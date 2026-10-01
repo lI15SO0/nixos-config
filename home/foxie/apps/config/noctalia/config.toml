@@ -138,7 +138,7 @@ font_family = "Maple Mono NF CN"
     wallpaper_placement = "floating"
 
     [shell.screen_corners]
-    enabled = true
+    enabled = false
 
     [[shell.session.actions]]
     action = "reboot"
