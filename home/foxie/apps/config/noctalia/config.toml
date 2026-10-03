@@ -69,7 +69,7 @@ behavior_order = [ "lock", "screen-off", "lock-and-suspend" ]
 
     [idle.behavior.lock-and-suspend]
     action = "lock_and_suspend"
-    enabled = true
+    enabled = false
     timeout = 900.0
 
     [idle.behavior.screen-off]
@@ -196,10 +196,10 @@ transition = [ "disc", "honeycomb", "stripes", "wipe" ]
     recursive = true
 
     [wallpaper.default]
-    path = "/home/foxie/Pictures/Wallpapers/pd-image.png"
+    path = "/home/foxie/Pictures/Wallpapers/pd-image1.png"
 
     [wallpaper.last]
-    path = "/home/foxie/Pictures/Wallpapers/pd-image.png"
+    path = "/home/foxie/Pictures/Wallpapers/pd-image1.png"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/foxie/Pictures/Wallpapers/pd-image.png"
+    path = "/home/foxie/Pictures/Wallpapers/pd-image1.png"
