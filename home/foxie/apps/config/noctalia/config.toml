@@ -29,7 +29,7 @@ widget_spacing = 10
     enabled = true
     fill = "surface_variant"
     id = "g2"
-    members = [ "network", "bluetooth" ]
+    members = [ "network", "network_tx", "network_rx", "bluetooth" ]
     opacity = 1.0
     padding = 6.0
 
@@ -196,10 +196,10 @@ transition = [ "disc", "honeycomb", "stripes", "wipe" ]
     recursive = true
 
     [wallpaper.default]
-    path = "/home/foxie/Pictures/Wallpapers/pd-image1.png"
+    path = "/home/foxie/Pictures/Wallpapers/pd-image.png"
 
     [wallpaper.last]
-    path = "/home/foxie/Pictures/Wallpapers/pd-image1.png"
+    path = "/home/foxie/Pictures/Wallpapers/pd-image.png"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/foxie/Pictures/Wallpapers/pd-image1.png"
+    path = "/home/foxie/Pictures/Wallpapers/pd-image.png"

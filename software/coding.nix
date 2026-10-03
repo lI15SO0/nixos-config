@@ -19,8 +19,7 @@
 		clang-tools
 
 		# zig
-		zig
-		zls
+		zvm
 
 		# go
 		go
