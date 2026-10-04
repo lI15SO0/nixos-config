@@ -19,8 +19,8 @@
 	};
 
 	home.sessionPath = [
-		"~/.local/share/bin/"
-		"~/.zvm/bin"
+		"$HOME/.local/share/bin/"
+		"$HOME/.zvm/bin"
 	];
 
 	home.file = {
