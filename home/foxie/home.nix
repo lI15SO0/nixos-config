@@ -18,6 +18,11 @@
 		# __VK_LAYER_NV_optimus = "NVIDIA_only";
 	};
 
+	home.sessionPath = [
+		"~/.local/share/bin/"
+		"~/.zvm/bin"
+	];
+
 	home.file = {
 		"${config.xdg.dataHome}/applications/steam.desktop" = {
 			enable = true;

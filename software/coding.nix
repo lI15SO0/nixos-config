@@ -99,6 +99,9 @@
 
 		# THX bro, This docs is awesome!!!
 		zeal
+
+		# nix
+		nixfmt
 	];
 
 	environment.sessionVariables = rec {
