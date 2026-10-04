@@ -11,6 +11,5 @@
 		rust-analyzer
 		taplo
 		yaml-language-server
-		zls
 	];
 }
