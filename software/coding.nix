@@ -68,7 +68,7 @@
 
     # java
     gradle
-    openjdk
+    openjdk25
 
     # shader
     shader-slang
