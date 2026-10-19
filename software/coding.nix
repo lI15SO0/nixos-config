@@ -1,4 +1,4 @@
-{ pkgs, config, ... }:
+{ pkgs, ... }:
 {
   programs.ccache.enable = false;
 
@@ -99,9 +99,6 @@
     # THX bro, This docs is awesome!!!
     zeal
 
-    # nix
-    nixfmt
-    nil
   ];
 
   environment.sessionVariables = {
