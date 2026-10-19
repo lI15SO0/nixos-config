@@ -101,6 +101,7 @@
 
     # nix
     nixfmt
+    nil
   ];
 
   environment.sessionVariables = {

@@ -11,6 +11,6 @@
 		rust-analyzer
 		taplo
 		yaml-language-server
-		nixd
+		# nixd
 	];
 }
