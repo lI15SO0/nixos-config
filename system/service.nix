@@ -1,50 +1,53 @@
-{ ... } :
+{ ... }:
 {
-	# Some programs need SUID wrappers, can be configured further or are
-	# started in user sessions.
-	# programs.mtr.enable = true;
-	# programs.gnupg.agent = {
-	#   enable = true;
-	#   enableSSHSupport = true;
-	# };
+  # Some programs need SUID wrappers, can be configured further or are
+  # started in user sessions.
+  # programs.mtr.enable = true;
+  # programs.gnupg.agent = {
+  #   enable = true;
+  #   enableSSHSupport = true;
+  # };
 
-	services = {
-		openssh.enable = true;
+  services = {
+    openssh.enable = true;
 
-		printing.enable = true;
+    printing.enable = true;
 
-		libinput.enable = true;
+    libinput.enable = true;
 
-		pipewire = {
-			enable = true;
-			pulse.enable = true;
-		};
+    pipewire = {
+      enable = true;
+      pulse.enable = true;
+    };
 
-		avahi = {
-			enable = true;
-			ipv4 = true;
-			ipv6 = true;
-			nssmdns4 = true;
-			nssmdns6 = true;
-			# openFirewall = true;
-			publish = {
-				enable = true;
-				userServices = true;
-				addresses = true;
-			};
+    avahi = {
+      enable = true;
+      nssmdns4 = true;
+      nssmdns6 = true;
 
-		};
-		blueman.enable = true;
+      settings = {
+        publish = {
+          publish-addresses = true;
+          disable-user-service-publishing = false;
+        };
 
-		systembus-notify.enable = true;
+        server = {
+          use-ipv4 = true;
+          use-ipv6 = true;
+        };
+      };
+    };
+    blueman.enable = true;
 
-		tuned.enable = true;
+    systembus-notify.enable = true;
 
-		upower.enable = true;
-	};
+    tuned.enable = true;
 
-	hardware.bluetooth = {
-		enable = true;
-		powerOnBoot = true;
-	};
+    upower.enable = true;
+  };
+
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+  };
 }
